@@ -1,5 +1,6 @@
 ### USAGE
 first download from github
+
 for browser you have to import like this:
 ```html
 <script src="namespace-value/dist/namespace-value.js"></script>
