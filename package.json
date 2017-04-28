@@ -2,14 +2,16 @@
   "name": "namespace-value",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test"
+    "test": "./node_modules/mocha/bin/mocha test",
+    "browserify": "./node_modules/browserify/bin/cmd.js -r ./lib/index.js:namespace-value > dist/namespace-value.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "browserify": "^14.3.0",
     "mocha": "^3.3.0"
   }
 }

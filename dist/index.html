@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+<script src="namespace-value.js"></script>
+<script>
+    data = {
+        users: [
+            {name: "jack", sex: "male", age: 20, address: "Hollywood"},
+            {name: "ppc", sex: "male", age: 23, address: undefined}
+        ],
+        company: {
+            name: "Google",
+            departments: [
+                {name: "develop", code: 1},
+                {name: "market"}
+            ]
+        }
+    };
+    var namespaceValue = require("namespace-value");
+    var companyName = namespaceValue(data, "company.name");
+    console.log(companyName === data.company.name);
+</script>
+</body>
+</html>
