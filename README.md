@@ -1,5 +1,10 @@
-### example
-basis
+### USAGE
+first download from github
+for browser you have to import like this:
+```html
+<script src="namespace-value/dist/namespace-value.js"></script>
+```
+basis use in node and browser
 ``` js
 var namespaceValue = require("namespace-value");
 
