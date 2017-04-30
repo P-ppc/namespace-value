@@ -1,4 +1,4 @@
-[![Build Status](https://img.shields.io/travis/P-ppc/namespace-value/master.svg)](ttps://travis-ci.org/P-ppc/namespace-value)
+[![Build Status](https://img.shields.io/travis/P-ppc/namespace-value/master.svg)](https://travis-ci.org/P-ppc/namespace-value)
 [![Coveralls](https://img.shields.io/coveralls/P-ppc/namespace-value/master.svg)](https://coveralls.io/github/P-ppc/namespace-value)
 ### USAGE
 first download from github
