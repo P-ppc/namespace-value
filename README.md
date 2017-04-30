@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/P-ppc/namespace-value.svg?branch=master)](ttps://travis-ci.org/P-ppc/namespace-value)
 ### USAGE
 first download from github
 
